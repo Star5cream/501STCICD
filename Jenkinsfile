@@ -5,7 +5,7 @@ pipeline {
         BRANCH_NAME = 'main'
         GIT_URL = 'https://github.com/Star5cream/501STCICD.git'
         IMAGE_TAG = 'Star5scream/501STCICD'
-        IMAGE_VERSION = ${BUILD_NUMBER}
+        IMAGE_VERSION = "${BUILD_NUMBER}"
          }
     
     stages {
