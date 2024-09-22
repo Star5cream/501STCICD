@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('build'){
+        stage('git checkout'){
             steps{
-                sh 'echo build onestar'
+             git branch: 'main', url: 'https://github.com/Star5cream/501STCICD.git'
             }
         }
         stage('test'){
