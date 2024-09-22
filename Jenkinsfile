@@ -4,7 +4,7 @@ pipeline {
     environment {
         BRANCH_NAME = 'main'
         GIT_URL = 'https://github.com/Star5cream/501STCICD.git'
-        IMAGE_TAG = 'Star5scream/501STCICD'
+        IMAGE_TAG = 'Star5scream/501stcicd'
         IMAGE_VERSION = "${BUILD_NUMBER}"
          }
     
