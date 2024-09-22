@@ -13,7 +13,7 @@ pipeline {
         }
         stage('docker build'){
             steps{
-                sh 'docker build -t 501STCICD .'
+                sh 'docker build -t awscicd .'
                 sh 'docker images'
             }
         }
